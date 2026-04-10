@@ -19,6 +19,12 @@ This API is designed to run inside an n8n workflow:
 3. Information extractor (LLM) → extracts key fields
 4. Database insert
 
+## n8n workflow usage
+### API node (HTTP Request)
+![HTTP Request node](docs/images/API_workinnode_N8Nworkflow.png)
+
+### Parameters example
+![Parameters](docs/images/API_nodeN8Nparam.png)
 
 ## Request/Response (overview)
 - Input: PDF file content (Base64) + optional filename
